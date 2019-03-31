@@ -1,0 +1,23 @@
+body {
+    background-color: #6c6a99;
+}
+
+.container {
+    margin: 100px auto 0;
+    width: 164px;
+}
+
+.graph__bg {
+   fill: #1b6a89;
+}
+
+.graph-green {
+    fill: #38bb9d;
+}
+.graph-red {
+    fill: #ef5451;
+}
+
+.graph-yellow {
+    fill: #f9a33f;
+}
