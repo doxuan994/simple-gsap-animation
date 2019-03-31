@@ -9,20 +9,20 @@
 
     <div class="container">
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="164" height="164" viewBox="0 0 164 164">
+        <svg xmlns="http://www.w3.org/2000/svg" width="164" height="164" viewBox="0 0 164 164" id="hover-effect">
 
-            <circle class="graph__bg" cx="82" cy="82" r="82" />
+            <circle class="graph__bg" id="circle" cx="82" cy="82" r="82" />
 
-            <path class="graph-green" d='M135 49.4l-10.2-1.5-4.6-9.5-4.6 9.5-10.2 1.5 7.4 7.4-1.8 10.5 9.2-4.9 9.2 4.9-1.8-10.5z' />
-            <path class="graph-red" d='M95.9 31.2l-10.2-1.5-4.6-9.6-4.6 9.6-10.2 1.5 7.4 7.4-1.8 10.5 9.2-5 9.2 5-1.8-10.5z' />
-            <path class="graph-yellow" d='M56.8 59.9l-10.2-1.6-4.6-9.5-4.6 9.5-10.2 1.6 7.4 7.4-1.7 10.5 9.1-5 9.2 5-1.8-10.5z' />
-
-
-            <path class="graph-yellow" d='M103.3 71.7H136v56h-32.7z' />
-            <path class="graph-green" d='M64.8 54.1h32.7v73.6H64.8z' />
-            <path class="graph-red" d='M26.4 81.5h32.7v45.6H26.4z' />
+            <path class="graph-yellow" id="graph-star-yellow" d='M56.8 59.9l-10.2-1.6-4.6-9.5-4.6 9.5-10.2 1.6 7.4 7.4-1.7 10.5 9.1-5 9.2 5-1.8-10.5z' />
+            <path class="graph-red" id="graph-star-red" d='M95.9 31.2l-10.2-1.5-4.6-9.6-4.6 9.6-10.2 1.5 7.4 7.4-1.8 10.5 9.2-5 9.2 5-1.8-10.5z' />
+            <path class="graph-green" id="graph-star-green" d='M135 49.4l-10.2-1.5-4.6-9.5-4.6 9.5-10.2 1.5 7.4 7.4-1.8 10.5 9.2-4.9 9.2 4.9-1.8-10.5z' />
 
 
+
+
+            <path class="graph-red" id="graph-bar-red" d='M26.4 81.5h32.7v45.6H26.4z' />
+            <path class="graph-green" id="graph-bar-green" d='M64.8 54.1h32.7v73.6H64.8z' />
+            <path class="graph-yellow" id="graph-bar-yellow" d='M103.3 71.7H136v56h-32.7z' />
 
 
 
@@ -33,6 +33,9 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="script.js"></script>
+
+
 
 
 </body>
